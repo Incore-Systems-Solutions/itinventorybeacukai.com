@@ -1,0 +1,75 @@
+.logo-img {
+    width: 36%;
+    height: auto;
+  }
+
+  .post-card .post-meta-btn .action-btn.bg-success{
+    background: rgb(255 142 142 / 15%) !important;
+  }
+
+  .categore-box .story-bx img {
+    border-radius: 56px !important;
+    border: 2px solid #ffadbe !important;
+    background: #f6f7f7 !important;
+  }
+  
+  .categore-box.selected .story-bx img {
+    background: #ffadbe !important; /* Ubah latar belakang untuk elemen yang dipilih */
+  }
+  .categore-box .story-bx{
+    background: #ffffff !important;
+  }
+  .header {
+    background-color: rgba(255,240,244,0.8);
+  }
+
+  .container1{
+    margin-top: -30px;
+  }
+
+  .media-grid {
+    display: grid;
+    gap: 8px;
+    margin-top: 10px;
+  
+    .dz-media {
+      overflow: hidden;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  
+      img, video {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+      }
+    }
+  
+    &.one-image {
+      grid-template-columns: repeat(auto-fill, minmax(80%, 1fr));
+    }
+  
+    &.two-images {
+      grid-template-columns: repeat(auto-fill, minmax(33%, 2fr));
+    }
+  
+    &.three-images {
+      grid-template-columns: repeat(2, minmax(80px, 1fr)); // Ukuran minimum lebih kecil
+      .dz-media:nth-child(1) {
+        grid-column: span 2; // Gambar pertama mengambil dua kolom
+      }
+    }
+  
+    &.four-images {
+      grid-template-columns: repeat(3, 1fr); // Tiga kolom
+      grid-template-rows: auto; // Baris otomatis
+      .dz-media:nth-child(1) {
+        grid-column: span 3; // Gambar pertama mengambil tiga kolom
+      }
+      .dz-media:nth-child(2),
+      .dz-media:nth-child(3),
+      .dz-media:nth-child(4) {
+        grid-column: span 1; // Gambar kedua, ketiga, dan keempat masing-masing satu kolom
+      }
+    }
+  }
