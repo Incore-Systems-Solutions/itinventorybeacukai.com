@@ -1,5 +1,30 @@
 @extends('layouts.main')
 
+@section('meta')
+        @php
+        $meta = \App\Helpers\Format::getCachedMeta();
+      //   $lang = app()->getLocale() ?? 'id';
+        $lang = 'id';
+    @endphp
+
+   <!-- Meta Item -->
+
+    <title>{{ $meta['meta'][$lang]['title'] ?? 'Hubungi Kami – Solusi IT Inventory Bea Cukai' }}</title>
+    <meta name="description" content="{{ $meta['meta'][$lang]['description'] ?? 'Ingin tahu lebih lanjut tentang sistem IT Inventory untuk gudang berikat dan kepabeanan? Hubungi tim kami untuk konsultasi teknis, integrasi sistem, dan pendampingan implementasi.' }}">
+    <meta name="keywords" content="{{ $meta['meta'][$lang]['keywords'] ?? 'kontak IT inventory, gudang berikat, sistem inventory bea cukai, integrasi sistem, konsultasi kepabeanan, monitoring barang, sistem pelacakan logistik' }}">
+   <!-- Schema Item -->
+    {{-- Schema Item --}}
+    @if (!empty($meta['schema'][$lang]))
+        @foreach ($meta['schema'][$lang] as $schemaItem)
+            @if (!empty($schemaItem['structured_data']))
+                <script type="application/ld+json">
+                    {!! $schemaItem['structured_data'] !!}
+                </script>
+            @endif
+        @endforeach
+    @endif
+@endsection
+
 @section('content')
 <div class="post-area">
   <div id="contact" class="container">

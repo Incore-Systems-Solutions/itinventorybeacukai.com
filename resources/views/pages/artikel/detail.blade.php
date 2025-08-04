@@ -9,9 +9,9 @@
 
    <!-- Meta Item -->
 
-    <title>{{ $meta['meta'][$lang]['title'] ?? '' }}</title>
-    <meta name="description" content="{{ $meta['meta'][$lang]['description'] ?? '' }}">
-    <meta name="keywords" content="{{ $meta['meta'][$lang]['keywords'] ?? '' }}">
+    <title>{{ $data['title'] }}</title>
+    <meta name="description" content="{{ $meta_description}}">
+    <meta name="keywords" content="{{ $meta_keywords }}">
    <!-- Schema Item -->
     {{-- Schema Item --}}
     @if (!empty($meta['schema'][$lang]))
