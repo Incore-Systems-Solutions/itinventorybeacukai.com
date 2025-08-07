@@ -1,0 +1,26 @@
+<?php
+
+return [
+    'slide_1_title' => 'Efficient BC27 Reporting',
+    'slide_1_desc' => 'Supports businesses in submitting and managing BC27 documents in an organized and accessible manner.',
+    'slide_1_cta' => 'Contact Us',
+    'fitur' => 'Key Features',
+    'feature_1_title' => 'Easy System Integration',
+    'feature_1_desc' => 'Supports integration with internal systems for BC27 report management.',
+    'feature_2_title' => 'Auto-Fill Function',
+    'feature_2_desc' => 'Reduces errors by automatically filling forms based on existing data.',
+    'feature_3_title' => 'Complete Document History',
+    'feature_3_desc' => 'Access all records and updates from each BC27 document.',
+    'feature_4_title' => 'Multi-User Access',
+    'feature_4_desc' => 'Enables collaboration across departments in one platform.',
+    'feature_5_title' => 'Digital Document Verification',
+    'feature_5_desc' => 'Ensures authenticity and integrity of documents through digital validation.',
+    'feature_6_title' => 'Structured Data Display',
+    'feature_6_desc' => 'Presents key information in a clearly organized format.',
+    'feature_7_title' => 'Secure Storage',
+    'feature_7_desc' => 'All documents are stored with high security standards.',
+    'feature_8_title' => 'Status Monitoring',
+    'feature_8_desc' => 'View your submission status directly from the dashboard.',
+    'feature_9_title' => 'Flexible and Scalable',
+    'feature_9_desc' => 'Suitable for all business sizes and types.',
+];

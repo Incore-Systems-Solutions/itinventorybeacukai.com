@@ -1,0 +1,36 @@
+<?php
+
+return [
+    'slide_1_title' => 'IT库存系统',
+    'slide_1_desc' => '为受控区域提供高效货物和库存管理的数字化方案。',
+    'slide_1_cta' => '联系我们',
+
+    'fitur' => '主要功能',
+
+    'feature_1_title' => '系统整合',
+    'feature_1_desc' => '高效连接各库存模块。',
+
+    'feature_2_title' => '自动处理',
+    'feature_2_desc' => '通过自动化加快流程。',
+
+    'feature_3_title' => '货物控制',
+    'feature_3_desc' => '全面监控进出货物。',
+
+    'feature_4_title' => '即时报告',
+    'feature_4_desc' => '按需提供业务报告。',
+
+    'feature_5_title' => '法规遵循',
+    'feature_5_desc' => '支持遵守相关法规。',
+
+    'feature_6_title' => '数据同步',
+    'feature_6_desc' => '确保数据一致性和准确性。',
+
+    'feature_7_title' => '库存管理',
+    'feature_7_desc' => '更好地控制库存水平。',
+
+    'feature_8_title' => '多层级访问',
+    'feature_8_desc' => '用户权限灵活配置。',
+
+    'feature_9_title' => '整合支持',
+    'feature_9_desc' => '可与其他系统集成。',
+];

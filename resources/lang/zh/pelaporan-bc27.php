@@ -1,0 +1,26 @@
+<?php
+
+return [
+    'slide_1_title' => '高效的BC27报告',
+    'slide_1_desc' => '支持企业有条理地提交和管理BC27文件，便于访问。',
+    'slide_1_cta' => '联系我们',
+    'fitur' => '主要功能',
+    'feature_1_title' => '系统集成便捷',
+    'feature_1_desc' => '支持与内部系统集成以管理BC27报告。',
+    'feature_2_title' => '自动填写',
+    'feature_2_desc' => '根据现有数据自动填写，减少错误。',
+    'feature_3_title' => '完整的文件记录',
+    'feature_3_desc' => '访问每份BC27文件的所有记录和更新。',
+    'feature_4_title' => '多用户访问',
+    'feature_4_desc' => '在同一平台上实现多部门协作。',
+    'feature_5_title' => '数字验证文件',
+    'feature_5_desc' => '通过数字验证确保文件的真实性和完整性。',
+    'feature_6_title' => '结构化数据展示',
+    'feature_6_desc' => '以清晰的方式呈现重要信息。',
+    'feature_7_title' => '安全存储',
+    'feature_7_desc' => '所有文件都按照高安全标准存储。',
+    'feature_8_title' => '状态监控',
+    'feature_8_desc' => '在仪表板上直接查看提交状态。',
+    'feature_9_title' => '灵活可扩展',
+    'feature_9_desc' => '适用于各种规模和类型的企业。',
+];

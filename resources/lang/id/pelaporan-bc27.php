@@ -1,0 +1,26 @@
+<?php
+
+return [
+    'slide_1_title' => 'Laporan BC27 yang Efisien',
+    'slide_1_desc' => 'Mendukung perusahaan dalam pengajuan dan pengelolaan dokumen BC27 secara terstruktur dan mudah diakses.',
+    'slide_1_cta' => 'Hubungi Kami',
+    'fitur' => 'Fitur Unggulan',
+    'feature_1_title' => 'Integrasi Sistem Mudah',
+    'feature_1_desc' => 'Mendukung integrasi dengan sistem internal untuk pengelolaan laporan BC27.',
+    'feature_2_title' => 'Pengisian Otomatis',
+    'feature_2_desc' => 'Mengurangi kesalahan dengan pengisian otomatis berdasarkan data yang telah tersedia.',
+    'feature_3_title' => 'Riwayat Dokumen Lengkap',
+    'feature_3_desc' => 'Akses seluruh catatan dan pembaruan dari setiap dokumen BC27.',
+    'feature_4_title' => 'Akses Multi-Pengguna',
+    'feature_4_desc' => 'Mendukung kolaborasi berbagai pihak dalam satu platform.',
+    'feature_5_title' => 'Verifikasi Dokumen Digital',
+    'feature_5_desc' => 'Memastikan keaslian dan integritas dokumen melalui verifikasi digital.',
+    'feature_6_title' => 'Tampilan Data yang Terstruktur',
+    'feature_6_desc' => 'Menampilkan informasi penting dalam format yang mudah dipahami.',
+    'feature_7_title' => 'Penyimpanan Aman',
+    'feature_7_desc' => 'Semua dokumen disimpan dengan standar keamanan tinggi.',
+    'feature_8_title' => 'Pemantauan Status',
+    'feature_8_desc' => 'Lihat status pengajuan secara langsung di dasbor Anda.',
+    'feature_9_title' => 'Fleksibel dan Skalabel',
+    'feature_9_desc' => 'Cocok untuk berbagai ukuran dan jenis usaha.',
+];
