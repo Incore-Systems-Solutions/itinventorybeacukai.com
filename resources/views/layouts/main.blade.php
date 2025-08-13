@@ -66,7 +66,7 @@
             <nav class="navbar navbar-expand-lg bg-body-tertiary" style="background-color: #fff3f5 !important">
                <div class="container-fluid" style="background-color: #fff3f5">
                   <a class="navbar-brand" href="https://www.indonesiacore.com">
-                     <img src="https://www.indonesiacore.com/_astro/logo-incore.BfcpG8i8.svg" style="width: 100px;height:50px" alt="">
+                     <img src="https://res.cloudinary.com/dvdkj3x6t/image/upload/v1755053837/logoincore_q4lxpb.svg" style="width: 100px;height:50px" alt="">
                   </a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                      <span class="navbar-toggler-icon"></span>

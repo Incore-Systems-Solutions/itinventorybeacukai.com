@@ -71,7 +71,7 @@ p {
                            <div class="position-relative">
                               <!-- Gambar sebagai latar belakang -->
                               <img
-                                 src="https://www.indonesiacore.com/_astro/bapanas-meet-4.C_Fzfr4V.webp"
+                                 src="https://res.cloudinary.com/dvdkj3x6t/image/upload/v1755054076/bapanas-meet-4.C_Fzfr4V_g1efqq.webp"
                                  class="img-fluid w-100 rounded"
                                  alt="Aplikasi Ceisa Bea Cukai"
                                  style="object-fit: cover; height: 300px;"
@@ -99,7 +99,7 @@ p {
                            <div class="position-relative">
                               <!-- Gambar sebagai latar belakang -->
                               <img
-                              src="https://www.indonesiacore.com/_astro/bapanas-meet-4.C_Fzfr4V.webp"
+                              src="https://res.cloudinary.com/dvdkj3x6t/image/upload/v1755054076/bapanas-meet-4.C_Fzfr4V_g1efqq.webp"
                               class="img-fluid w-100 rounded"
                               alt="Image 2"
                               style="object-fit: cover; height: 300px;"

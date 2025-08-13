@@ -70,7 +70,7 @@ p {
                                 <div class="container">
                                     <div class="position-relative">
                                         <img
-                                            src="https://www.indonesiacore.com/_astro/bapanas-meet-4.C_Fzfr4V.webp"
+                                            src="https://res.cloudinary.com/dvdkj3x6t/image/upload/v1755054076/bapanas-meet-4.C_Fzfr4V_g1efqq.webp"
                                             class="img-fluid w-100 rounded"
                                             alt="Gudang Berikat"
                                             style="object-fit: cover; height: 300px;"
